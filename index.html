@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 5</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="tealround">
+        <h1 class="white">Midterm Exam</h1>
+        <p class="white">Find all prime numbers beetween two numbers</p>
+    </div>
+    <div class="flex-container">
+        <div class="numberform">
+            <label for="fname">Number 1:</label><br>
+            <input class="rounded" type="number" id="fname" name="fname" value="0"><br>
+        </div>
+        <div class="numberform">
+            <label for="lname">Number 2:</label><br>
+            <input class="rounded" type="number" id="lname" name="lname" value="0">
+        </div>
+    </div>
+    <div class="numberform">
+        <button class="button" onclick="primenumber()">Submit</button>
+    </div>
+    <div class="numberform answer" id="numberanswer">
+    </div>
+    <div class="numberform error" id="erroranswer">
+    </div>
+</body>
+
+</html>

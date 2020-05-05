@@ -1,0 +1,51 @@
+.tealround {
+    border-radius: 25px;
+    background: teal;
+    padding: 30px;
+}
+
+.rounded {
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+}
+.error{
+    color: red;
+    font-weight: bold;
+}
+.button {
+    border-radius: 8px;
+    border-color: blue;
+    padding: 8px;
+    color: blue;
+    background-color: white;
+}
+
+.answer{
+    color: teal;
+    font-weight: bold;
+}
+
+@media (min-width: 400px) {
+    .flex-container {
+        display: block;
+    }
+    .numberform {
+        padding: 15px;
+    }
+}
+
+@media (min-width: 900px) {
+    .flex-container {
+        display: flex;
+    }
+    .numberform {
+        padding: 15px;
+        width: 50%;
+    }
+}
+
+.white {
+    color: white;
+    text-align: center;
+}
